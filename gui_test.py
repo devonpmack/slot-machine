@@ -29,4 +29,3 @@ img = tkinter.PhotoImage(file = os.path.join(dir_path,'assets','apple.gif'))
 w.create_image(0, 0, image = img, anchor='nw')
 
 tkinter.mainloop()
-

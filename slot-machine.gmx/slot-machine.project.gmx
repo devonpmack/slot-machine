@@ -13,12 +13,14 @@
     <sprite>sprites\sprite4</sprite>
     <sprite>sprites\sprite5</sprite>
     <sprite>sprites\sprite6</sprite>
+    <sprite>sprites\sprite7</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\trace.gml</script>
     <script>scripts\randomnext.gml</script>
+    <script>scripts\eq.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\slot</object>
@@ -30,6 +32,8 @@
     <object>objects\Slot3</object>
     <object>objects\randomizer</object>
     <object>objects\shadow</object>
+    <object>objects\Win</object>
+    <object>objects\tdraw</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
