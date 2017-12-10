@@ -71,7 +71,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (t &gt; 0 and !global.moving) {
+            <string>if (t &gt; 0 and !global.moving and !Win.alarm[0]) {
     t--;
 }
 </string>
