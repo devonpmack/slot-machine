@@ -13,40 +13,39 @@ probf = 7.5;
 //Purple
 if (a <= probp) {
     global.win=true;
-    trace("PURPLE");
+    trace("#,PURPLE");
     p1 = purple;
     p2 = purple;
     p3 = purple;
 } else if (a <= probg+probp) {
     global.win=true;
-    trace("GREEN");
-    p1 = green;
-    p2 = green;
-    p3 = green;
+    trace("#,GREEN");
+    p1 = emerald;
+    p2 = emerald;
+    p3 = emerald;
 } else if (a <= probf+probg+probp) {
     global.win=true;
-    trace("FRUIT");
     b = choose(1,2,3);
     if (b == 1) {
-        trace("BANANA");
+        trace("#,BANANA");
         p1 = banana;
         p2 = banana;
         p3 = banana;
     }
     if (b == 2) {
-        trace("CHERRY");
+        trace("#,CHERRY");
         p1 = cherry;
         p2 = cherry;
         p3 = cherry;
     }
     if (b == 3) {
-        trace("APPLE");
+        trace("#,APPLE");
         p1 = apple;
         p2 = apple;
         p3 = apple;
     }
 } else {
-    trace("RANDOM");
+    trace("#,RANDOM");
     ex = irandom(4);
     ey = irandom(4);
     ez = irandom(4);

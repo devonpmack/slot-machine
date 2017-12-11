@@ -31,6 +31,7 @@ pos = x;
 togo = 0;
 dist = 0;
 randomizd = false;
+
 </string>
           </argument>
         </arguments>
