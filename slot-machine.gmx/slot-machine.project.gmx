@@ -14,6 +14,7 @@
     <sprite>sprites\sprite5</sprite>
     <sprite>sprites\sprite6</sprite>
     <sprite>sprites\sprite7</sprite>
+    <sprite>sprites\lever</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -34,6 +35,7 @@
     <object>objects\shadow</object>
     <object>objects\Win</object>
     <object>objects\tdraw</object>
+    <object>objects\objlever</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
