@@ -13,13 +13,13 @@ probf = 7.5;
 //Purple
 if (a <= probp) {
     global.win=true;
-    trace("#,PURPLE");
+    trace("$,-50,3 Purple gems");
     p1 = purple;
     p2 = purple;
     p3 = purple;
 } else if (a <= probg+probp) {
     global.win=true;
-    trace("#,GREEN");
+    trace("$,-5,3 Green gems");
     p1 = emerald;
     p2 = emerald;
     p3 = emerald;
@@ -27,25 +27,25 @@ if (a <= probp) {
     global.win=true;
     b = choose(1,2,3);
     if (b == 1) {
-        trace("#,BANANA");
+        trace("$,-2,3 Bananas");
         p1 = banana;
         p2 = banana;
         p3 = banana;
     }
     if (b == 2) {
-        trace("#,CHERRY");
+        trace("$,-2,3 Cherries");
         p1 = cherry;
         p2 = cherry;
         p3 = cherry;
     }
     if (b == 3) {
-        trace("#,APPLE");
+        trace("$,-2,3 Apples");
         p1 = apple;
         p2 = apple;
         p3 = apple;
     }
 } else {
-    trace("#,RANDOM");
+    trace("$,0,User won nothing -1 tries");
     ex = irandom(4);
     ey = irandom(4);
     ez = irandom(4);
